@@ -1,0 +1,30 @@
+.empty_bar {
+  margin: 7px 13px 23px;
+  input {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+  }
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px 11px 17px 0;
+  .user_info {
+    color: var(--main);
+    margin-right: 12px;
+    .user_name,
+    .user_email {
+      font-size: 12px;
+    }
+  }
+  .user_img {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,167 @@
+:root {
+  --main: #009c41;
+  --secondary: #ff7728;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+}
+
+.empty_bar {
+  margin: 7px 13px 23px;
+}
+.empty_bar input {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px 11px 17px 0;
+}
+.user .user_info {
+  color: var(--main);
+  margin-right: 12px;
+}
+.user .user_info .user_name,
+.user .user_info .user_email {
+  font-size: 12px;
+}
+.user .user_img {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  background-image: url("../../assets/login_bg.jpg");
+  background-size: cover;
+  padding: 0 23px;
+  background-color: rgba(33, 50, 94, 0.8);
+  background-blend-mode: overlay;
+  height: calc(100vh - 144px);
+}
+main .wrap {
+  max-width: 1076px;
+  margin: 0 auto;
+}
+
+.pre_form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding: 16px 0 12px 0;
+  border-bottom: 3px solid #fff;
+}
+.pre_form .name {
+  font-size: 24px;
+  font-weight: 700;
+  width: calc(100% - 40px);
+  text-align: right;
+}
+.pre_form .gif {
+  width: 40px;
+  height: 40px;
+}
+.pre_form .gif img {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form h2 {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 48px;
+  margin-bottom: 56px;
+}
+form .form_control {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+form .form_control label {
+  font-size: 18px;
+  margin-bottom: 13px;
+  padding-right: 18px;
+  text-align: right;
+  color: white;
+}
+form .form_control input {
+  margin: 0 auto;
+  border-radius: 30px;
+  border: none;
+  height: 40px;
+  padding: 8px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+form .form_control input:focus ~ span {
+  display: block;
+}
+form .form_control span {
+  display: none;
+  position: absolute;
+  top: 43px;
+  right: 15px;
+  font-weight: 700;
+}
+
+#i1 {
+  margin-bottom: 56px;
+}
+
+#i2 {
+  margin-bottom: 92px;
+}
+
+.form_buttons {
+  display: flex;
+  margin-bottom: 66px;
+  justify-content: center;
+}
+.form_buttons > * {
+  width: 100%;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.form_buttons .gray {
+  margin-right: 18px;
+  background: #c4c4c4;
+  position: relative;
+}
+.form_buttons .gray img {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form_buttons .active {
+  background: var(--main);
+}
+.form_buttons button {
+  max-width: 350px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=login.css.map */

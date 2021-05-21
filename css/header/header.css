@@ -1,0 +1,33 @@
+.empty_bar {
+  margin: 7px 13px 23px;
+}
+.empty_bar input {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px 11px 17px 0;
+}
+.user .user_info {
+  color: var(--main);
+  margin-right: 12px;
+}
+.user .user_info .user_name,
+.user .user_info .user_email {
+  font-size: 12px;
+}
+.user .user_img {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=header.css.map */
